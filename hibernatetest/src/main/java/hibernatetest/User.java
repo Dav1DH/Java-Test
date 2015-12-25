@@ -33,7 +33,7 @@ public class User {
 	private String email;
 	
 	@Column(name = "age")
-	private int age;
+	private Integer age;
 	
 	@Column(name = "sex")
 	private String sex;
@@ -125,14 +125,14 @@ public class User {
 	/**
 	 * @return the age
 	 */
-	public int getAge() {
+	public Integer getAge() {
 		return age;
 	}
 
 	/**
 	 * @param age the age to set
 	 */
-	public void setAge(int age) {
+	public void setAge(Integer age) {
 		this.age = age;
 	}
 
